@@ -1,4 +1,5 @@
-HealthTracker – Service & URL Health Monitoring Platform
+**HealthTracker – Service & URL Health Monitoring Platform**
+
 HealthTracker is a Spring Boot–based backend system that continuously monitors the health of services and URLs, performs scheduled checks with retry logic, and automatically creates incidents when repeated failures occur.
 The project also includes a lightweight React based UI for viewing services, URLs, and incidents. The UI was developed with assistance from AI Copilot to accelerate development.
 ________________________________________
@@ -37,7 +38,8 @@ Example Flow
 3.	Scheduler periodically checks URL
 4.	On repeated failure → Incident created
 5.	On recovery → Incident resolved
-________________________________________ Future Improvements
+________________________________________ 
+Future Improvements
 •	Authentication & authorization
 •	Parallel / async health checks
 •	Docker support
